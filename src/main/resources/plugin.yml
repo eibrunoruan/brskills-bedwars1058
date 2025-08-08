@@ -1,0 +1,66 @@
+name: SkiHabilidades
+version: 1.0.0
+main: com.brunoruan.Brskills.SkiHabilidades
+api-version: 1.13
+author: brunoruan
+description: Um addon de habilidades para o BedWars1058.
+softdepend: [BedWars1058, Vault]
+
+permissions:
+  skihabilidades.habilidade.fenix:
+    description: Permissão para usar a habilidade Fenix.
+    default: op
+  skihabilidades.habilidade.vidaextra:
+    description: Permissão para usar a habilidade Vida Extra.
+    default: op
+  skihabilidades.habilidade.protetor:
+    description: Permissão para usar a habilidade Protetor.
+    default: op
+  skihabilidades.habilidade.raivoso:
+    description: Permissão para usar a habilidade Raivoso.
+    default: op
+  skihabilidades.habilidade.ultimachance:
+    description: Permissão para usar a habilidade Ultima Chance.
+    default: op
+  skihabilidades.habilidade.construtor:
+    description: Permissão para usar a habilidade Construtor.
+    default: op
+  skihabilidades.habilidade.ressarcimento:
+    description: Permissão para usar a habilidade Ressarcimento.
+    default: op
+  skihabilidades.habilidade.pesopena:
+    description: Permissão para usar a habilidade Peso Pena.
+    default: op
+  skihabilidades.habilidade.espiao:
+    description: Permissão para usar a habilidade Espião.
+    default: op
+  skihabilidades.habilidade.revelacao:
+    description: Permissão para usar a habilidade Revelação.
+    default: op
+  skihabilidades.habilidade.vampirismo:
+    description: Permissão para usar a habilidade Vampirismo.
+    default: op
+  skihabilidades.habilidade.toqueigneo:
+    description: Permissão para usar a habilidade Toque Ígneo.
+    default: op
+  skihabilidades.habilidade.hades:
+    description: Permissão para usar a habilidade Hades.
+    default: op
+  skihabilidades.limite.default:
+    description: Limite de 4 pontos de habilidade.
+    default: true
+  skihabilidades.limite.vip:
+    description: Limite de 8 pontos de habilidade.
+    default: false
+  skihabilidades.limite.mvp:
+    description: Limite de 10 pontos de habilidade.
+    default: false
+  skihabilidades.limite.mvp_plus:
+    description: Limite de 12 pontos de habilidade.
+    default: false
+
+commands:
+  habilidades:
+    description: Abre o menu de habilidades do SkiHabilidades.
+    usage: /habilidades
+    aliases: [skills, habs]

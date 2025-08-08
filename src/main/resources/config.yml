@@ -1,0 +1,29 @@
+#==================================================================#
+#                                                                  #
+#                        SkiHabilidades                            #
+#                Configuração de Armazenamento de Dados            #
+#                                                                  #
+#==================================================================#
+
+storage:
+  # Escolha o método de armazenamento de dados dos jogadores.
+  # Opções disponíveis: YAML, MYSQL, MONGODB
+  method: YAML
+
+  # Configurações para o método MYSQL
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "skihabilidades"
+    username: "root"
+    password: "password"
+    table_prefix: "sh_"
+
+  # Configurações para o método MONGODB
+  mongodb:
+    # Use o formato de string de conexão do MongoDB.
+    # Exemplo local: "mongodb://localhost:27017"
+    # Exemplo com autenticação: "mongodb://user:pass@host:port/database"
+    connection-uri: "mongodb://localhost:27017"
+    database: "skihabilidades"
+    collection: "player_data"
